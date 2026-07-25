@@ -2,14 +2,14 @@
 %define upstream_version 1.0
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 
 Summary:	Line-buffered select interface
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/IO/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/IO-BufferedSelect
+Source0:	https://cpan.metacpan.org/authors/id/A/AF/AFN/IO-BufferedSelect-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
