@@ -1,15 +1,13 @@
 %define upstream_name    IO-BufferedSelect
-%define upstream_version 1.0
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	6
+Version:	1.0
+Release:	7
 
 Summary:	Line-buffered select interface
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/IO-BufferedSelect
-Source0:	https://cpan.metacpan.org/authors/id/A/AF/AFN/IO-BufferedSelect-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/A/AF/AFN/IO-BufferedSelect-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
